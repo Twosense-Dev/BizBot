@@ -7,11 +7,11 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
 
 const PLANS = {
   basic: {
-    price: 'price_1QzpSpLE4SNcqRNLcdLCQ1Er',
+    price: 'YOUR_BASIC_PLAN_PRICE_ID',
     name: 'Basic Plan'
   },
   pro: {
-    price: 'price_1QzpV0LE4SNcqRNLBN5CjmGP',
+    price: 'YOUR_PRO_PLAN_PRICE_ID',
     name: 'Pro Plan'
   }
 };
